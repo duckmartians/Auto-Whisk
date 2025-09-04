@@ -12,7 +12,7 @@ Chào mừng bạn đến với FlowMate\! Tiện ích này là trợ lý đắc
 
 2.  **Truy cập Trang Cài Đặt:** Nhấn vào đường link sau để mở trang FlowMate trên Chrome Web Store:
 
-      * [https://chromewebstore.google.com/detail/lhcmnhdbddgagibbbgppakocflbnknoa](https://chromewebstore.google.com/detail/lhcmnhdbddgagibbbgppakocflbnknoa)
+      * [https://chromewebstore.google.com/detail/flowmate-prompt-automatio/lhcmnhdbddgagibbbgppakocflbnknoa](https://chromewebstore.google.com/detail/flowmate-prompt-automatio/lhcmnhdbddgagibbbgppakocflbnknoa)
 
 3.  **Thêm vào Chrome:** Tại trang webstore, bạn sẽ thấy nút **"Thêm vào Chrome"** (Add to Chrome). Hãy nhấn vào đó.
 
@@ -115,7 +115,7 @@ To get started, you first need to add FlowMate to your browser.
 
 2.  **Go to the Store Page:** Click the following link to open the FlowMate page on the Chrome Web Store:
 
-      * [https://chromewebstore.google.com/detail/lhcmnhdbddgagibbbgppakocflbnknoa](https://chromewebstore.google.com/detail/lhcmnhdbddgagibbbgppakocflbnknoa)
+     * [https://chromewebstore.google.com/detail/flowmate-prompt-automatio/lhcmnhdbddgagibbbgppakocflbnknoa](https://chromewebstore.google.com/detail/flowmate-prompt-automatio/lhcmnhdbddgagibbbgppakocflbnknoa)
 
 3.  **Add to Chrome:** On the webstore page, click the **"Add to Chrome"** button.
 
