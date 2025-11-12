@@ -1,51 +1,43 @@
-## Auto Whisk - Tự động hóa Prompt cho Whisk
+# Auto Whisk - Prompt Automator for Whisk [![Tiếng Việt](https://img.shields.io/badge/Tiếng%20Việt-green)](README_vi.md) [![English](https://img.shields.io/badge/English-blue)](README.md) 
 
-**Auto Whisk** là một tiện ích mở rộng mạnh mẽ cho Google Chrome, được thiết kế để tự động hóa toàn bộ quy trình làm việc của bạn trên nền tảng **Google Whisk**.
+A Chrome extension to automate your entire workflow with Google's Whisk (on `labs.google`). Batch-send prompts, save time, accelerate creativity, and take full control of your process!
 
-Công cụ này giúp bạn tiết kiệm vô số thời gian bằng cách cho phép bạn nhập hàng trăm prompt và để tiện ích tự động gửi chúng, tạo ra hình ảnh hàng loạt mà không cần can thiệp thủ công. Đặc biệt, tiện ích còn có khả năng tự động tải về tất cả các hình ảnh được tạo ra.
+[![Download Here](https://img.shields.io/badge/⬇_Download-Here-success?style=for-the-badge)](https://chromewebstore.google.com/detail/auto-whisk-prompt-automat/gedfnhdibkfgacmkbjgpfjihacalnlpn)
 
-## ✨ Tính năng nổi bật
+## Key Features
 
-  * **Tự động hóa toàn diện**: Gửi hàng loạt prompt từ danh sách bạn cung cấp để tạo ảnh một cách tự động.
-  * **Tự động tải ảnh**: Tự động quét và tải về tất cả các hình ảnh được tạo ra vào một thư mục bạn chỉ định, giúp bạn không bỏ lỡ bất kỳ kết quả nào.
-  * **Nhập liệu linh hoạt**: Dễ dàng dán danh sách prompt hoặc nhập trực tiếp từ tệp văn bản (`.txt`).
-  * **Tùy chỉnh mạnh mẽ**:
-      * **2 Chế độ chờ**: Chọn giữa thời gian chờ cố định hoặc ngẫu nhiên giữa các lần gửi prompt.
-      * **Tùy chỉnh số lần lặp**: Thiết lập số lần bạn muốn mỗi prompt được thực thi.
-      * **Bắt đầu linh hoạt**: Chọn prompt bắt đầu trong danh sách của bạn.
-  * **Quản lý thông minh**:
-      * **Tạm dừng & Tiếp tục**: Dễ dàng tạm dừng và tiếp tục lại quy trình bất cứ lúc nào.
-      * **Tạo dự án mới**: Tùy chọn tự động tạo một dự án mới trước khi chạy để giữ cho không gian làm việc của bạn luôn sạch sẽ.
-      * **Lưu trữ lịch sử tải**: Ghi nhớ các ảnh đã tải của từng dự án, tránh tải lại các ảnh đã có khi bạn tiếp tục công việc.
-  * **Theo dõi và gỡ lỗi**:
-      * Tab **Lịch Sử** ghi lại log chi tiết của từng hành động.
-      * Tự động tổng hợp danh sách các prompt bị lỗi, cho phép bạn sao chép chúng chỉ bằng một cú nhấp chuột để dễ dàng sửa và chạy lại.
-  * **Giao diện đa ngôn ngữ**: Hỗ trợ đầy đủ Tiếng Việt và Tiếng Anh.
+* **Batch Prompting:** Input a list of prompts directly or upload from a `.txt` file.
+* **Auto Image Download:** Automatically scans for and downloads newly generated images to a folder you specify.
+* **Full Control:** Start, Pause, Resume, and Stop the automation at any time.
+* **Two Start Modes:**
+    * `Create New Project`: Automatically navigates and creates a new Whisk project.
+    * `Run on This Project`: Starts the automation on the Whisk project you currently have open.
+* **Advanced Customization:**
+    * Set wait times (fixed or random) between prompts to manage generation speed.
+    * Set a repeat count for *each* prompt in your list.
+    * Start from a specific prompt number (e.g., start from prompt #50).
+* **Smart Error Handling:** Automatically detects when the Whisk queue is full (send button is disabled), waits, retries, and even auto-refreshes the page to ensure the process continues.
+* **History & Logging:** Track progress in the "History" tab and easily copy any prompts that failed.
 
-## 🚀 Cài đặt
+## How to Use
 
-Bạn có thể cài đặt tiện ích một cách dễ dàng từ Cửa hàng Chrome trực tuyến:
+1.  Install the extension from the Chrome Web Store.
+2.  Go to the [Google Labs Whisk tool](https://labs.google/fx/tools/whisk).
+3.  Click the extension icon (the duck) in your Chrome toolbar to open the Side Panel.
+4.  **"Control" Tab:**
+    * Paste your list of prompts (one per line) into the textarea.
+    * Alternatively, click "Import from file" to load prompts from a `.txt` file.
+5.  **"Settings" Tab:**
+    * Enable **"Auto-download images"** and set a **"Download Folder"** name (e.g., `Whisk Downloads`).
+    * Set the **Wait time** (e.g., 10-20 seconds) to give Whisk time to generate images.
+    * Set **"Runs per prompt"** if you want each prompt to run multiple times.
+6.  **Return to "Control" Tab:**
+    * Click the **"Start"** button.
+    * You will see two options: "Create New Project" or "Run on This Project". Choose one.
+    * The tool will begin processing your prompts.
 
-[**Cài đặt Auto Whisk**](https://chromewebstore.google.com/detail/auto-whisk-prompt-automat/gedfnhdibkfgacmkbjgpfjihacalnlpn)
+## Important Notes
 
-## 📖 Hướng dẫn sử dụng
-
-1.  **Truy cập trang Google Whisk**: Tiện ích chỉ hoạt động khi bạn đang ở trên một trang dự án của Whisk. Hãy truy cập: [https://labs.google/fx/tools/whisk](https://labs.google/fx/tools/whisk)
-2.  **Mở tiện ích**: Nhấp vào biểu tượng **Auto Whisk** (chú vịt vàng) trên thanh công cụ của Chrome để mở Bảng điều khiển.
-3.  **Nhập Prompt**: Dán danh sách prompt của bạn vào ô văn bản, mỗi prompt một dòng, hoặc sử dụng nút **"Nhập từ file"**.
-4.  **Cấu hình (Tùy chọn)**: Vào tab **"Cài Đặt"** để điều chỉnh các thông số như thời gian chờ, số lần lặp lại, và đặc biệt là bật tính năng **"Tự động tải ảnh"** và đặt tên thư mục bạn muốn.
-      * **Mẹo**: Để ảnh được tự động tải về mà không cần hỏi, hãy vào `chrome://settings/downloads` và tắt tùy chọn "Hỏi vị trí lưu mỗi tệp trước khi tải về".
-5.  **Bắt đầu**: Quay lại tab **"Điều Khiển"**, nhấn **"Bắt đầu"** và chọn chạy trên dự án hiện tại hoặc tạo một dự án mới.
-6.  **Theo dõi**: Quan sát tiến trình trên bảng điều khiển. Bạn có thể tạm dừng, dừng hẳn, hoặc xem log chi tiết trong tab Lịch sử.
-
-## ☕ Hỗ trợ tác giả
-
-Nếu bạn thấy tiện ích này hữu ích, hãy ủng hộ tác giả một ly cà phê để tiếp thêm động lực cho các dự án trong tương lai\!
-
-[http://duckmartians.info](http://duckmartians.info)
-
-## 📜 Giấy phép
-
-Bản quyền (c) 2025 Đặng Minh Đức (duckmartians). Đã đăng ký Bản quyền.
-
-Phần mềm này được cấp phép theo các điều khoản được nêu trong tệp [LICENSE.md](LICENSE.md).
+* **Keep Panel Open:** Always keep the Whisk tab and the extension's Side Panel open while the tool is running.
+* **Use Separate Window:** For best stability, run the tool in a separate browser window.
+* **Disable Download Prompt:** If using "Auto-download", go to your browser's download settings (`chrome://settings/downloads`) and turn off **"Ask where to save each file before downloading"** for a seamless experience.
